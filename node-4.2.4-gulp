@@ -1,0 +1,5 @@
+FROM node@4.2.4
+RUN apt-get update
+RUN apt-get install -y vim
+RUN npm install -g gulp-cli
+RUN npm install -g gulp-server-livereload
